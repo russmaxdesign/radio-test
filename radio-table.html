@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Radio table test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Radio table test</h1>
+<p><a href="">Dummy link before</a></p>
+
+<table>
+  <thead>
+    <tr>
+      <th class="width40" id="heading1"><span class="sr-only">Choose an option</span></th>
+      <th>Fruit</th>
+      <th>Animals</th>
+      <th>Colours</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><input type="radio" name="choose" aria-labelledby="heading1 row1-col1 row1-col2 row1-col3"></td>
+      <td id="row1-col1">Apple</td>
+      <td id="row1-col2">Bear</td>
+      <td id="row1-col3">Red</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="choose" aria-labelledby="row2-col1 row2-col2 row2-col3"></td>
+      <td id="row2-col1">Banana</td>
+      <td id="row2-col2">Echinda</td>
+      <td id="row2-col3">Yellow</td>
+    </tr>
+    <tr>
+      <td><input type="radio" name="choose" aria-labelledby="row3-col1 row3-col2 row3-col3"></td>
+      <td id="row3-col1">Grape</td>
+      <td id="row3-col2">Elephant</td>
+      <td id="row3-col3">Black</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="">Dummy link after</a></p>
+
+</body>
+</html>
+
